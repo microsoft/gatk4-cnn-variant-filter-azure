@@ -4,7 +4,7 @@ This repository is an example of running GATK's CNN tool, which is a deep learni
 
 This repository is a fork from [the original](https://github.com/gatk-workflows/gatk4-cnn-variant-filter) and has all the required changes to run the WDL workflow on Cromwell on Azure.
 
-Please read the following discussion to learn more about the CNN tool: [Deep Learning in GATK4](https://gatkforums.broadinstitute.org/gatk/discussion/10996/deep-learning-in-gatk4).<br/>
+Please read the following discussion to learn more about the CNN tool: [Deep Learning in GATK4](https://sites.google.com/a/broadinstitute.org/legacy-gatk-forum-discussions/announcements/10996-Deep-learning-in-GATK4).<br/>
 
 Here, you can find the WDL file and an example inputs JSON file with links to data hosted on a public Azure Storage account. You can use the "datasettestinputs" storage account directly as a relative path, like in the inputs JSON files.
 
