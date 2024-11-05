@@ -1,24 +1,24 @@
 {
-  "Cram2FilteredVcf.input_file": "/datasettestinputs/dataset/gatk4-cnn-variant-filter/NA12878.cram",
-  "Cram2FilteredVcf.reference_fasta": "/datasettestinputs/dataset/references/hg38/v0/Homo_sapiens_assembly38.fasta",
-  "Cram2FilteredVcf.reference_dict": "/datasettestinputs/dataset/references/hg38/v0/Homo_sapiens_assembly38.dict",
-  "Cram2FilteredVcf.reference_fasta_index": "/datasettestinputs/dataset/references/hg38/v0/Homo_sapiens_assembly38.fasta.fai",
+  "Cram2FilteredVcf.input_file": "https://datasettestinputs.blob.core.windows.net/dataset/gatk4-cnn-variant-filter/NA12878.cram",
+  "Cram2FilteredVcf.reference_fasta": "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/Homo_sapiens_assembly38.fasta",
+  "Cram2FilteredVcf.reference_dict": "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/Homo_sapiens_assembly38.dict",
+  "Cram2FilteredVcf.reference_fasta_index": "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/Homo_sapiens_assembly38.fasta.fai",
   "Cram2FilteredVcf.resources": [
-    "/datasettestinputs/dataset/references/hg38/v0/hapmap_3.3.hg38.vcf.gz",
-    "/datasettestinputs/dataset/references/hg38/v0/1000G_phase1.snps.high_confidence.hg38.vcf.gz",
-    "/datasettestinputs/dataset/references/hg38/v0/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz"
+    "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/hapmap_3.3.hg38.vcf.gz",
+    "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/1000G_phase1.snps.high_confidence.hg38.vcf.gz",
+    "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz"
   ],
   "Cram2FilteredVcf.resources_index": [
-    "/datasettestinputs/dataset/references/hg38/v0/hapmap_3.3.hg38.vcf.gz.tbi",
-    "/datasettestinputs/dataset/references/hg38/v0/1000G_phase1.snps.high_confidence.hg38.vcf.gz.tbi",
-    "/datasettestinputs/dataset/references/hg38/v0/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz.tbi"
+    "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/hapmap_3.3.hg38.vcf.gz.tbi",
+    "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/1000G_phase1.snps.high_confidence.hg38.vcf.gz.tbi",
+    "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz.tbi"
   ],
   "Cram2FilteredVcf.output_prefix": "hg38_20k_na12878",
   "Cram2FilteredVcf.info_key": "CNN_2D",
   "Cram2FilteredVcf.snp_tranches": " --snp-tranche 99.9 ",
   "Cram2FilteredVcf.indel_tranches": " --indel-tranche 99.5 ",
   "Cram2FilteredVcf.tensor_type": "read_tensor",
-  "Cram2FilteredVcf.calling_intervals": "/datasettestinputs/dataset/references/hg38/v0/wgs_calling_regions.hg38.interval_list",
+  "Cram2FilteredVcf.calling_intervals": "https://datasettestinputs.blob.core.windows.net/dataset/references/hg38/v0/wgs_calling_regions.hg38.interval_list",
   "Cram2FilteredVcf.gatk_docker": "broadinstitute/gatk:4.1.4.0",
   "Cram2FilteredVcf.preemptible_attempts": 10,
   "Cram2FilteredVcf.inference_batch_size": 8,
