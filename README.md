@@ -1,3 +1,25 @@
+
+Dear Community,
+
+After careful consideration, we have decided to shift our focus to new and innovative initiatives that will better serve our community and align with our long-term goals.
+
+**Effective Date**: May 12, 2025
+
+**Impact on Users**:
+- The project repository will be archived and set to read-only mode, ensuring that it remains accessible for reference.
+- While no further updates, bug fixes, or support will be provided, we encourage you to explore the wealth of knowledge and resources available in the repository.
+- Existing issues and pull requests will be closed, but we invite you to engage with other projects and contribute your expertise.
+  
+**Licensing**: The project will remain under its current open-source license, allowing others to fork and continue development if they choose.
+
+
+We understand that this change may come as a surprise, but we are incredibly grateful for your support and contributions over the years. Your dedication has been instrumental in the success of this project, and we look forward to your continued involvement in our future endeavors.
+
+Thank you for your understanding and support.
+
+
+
+
 # Variant-filtering with Convolutional Neural Networks on Azure
 
 This repository is an example of running GATK's CNN tool, which is a deep learning approach to filter variants based on Convolutional Neural Networks, by the Broad Institute of MIT and Harvard, on [Cromwell on Azure](https://github.com/microsoft/CromwellOnAzure). 
